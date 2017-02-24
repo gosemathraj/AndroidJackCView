@@ -1,4 +1,4 @@
-package gosemathraj.com.calendarviews;
+package gosemathraj.com.calendarviews.activities;
 
 import android.widget.Toast;
 
@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import gosemathraj.com.calendarviews.R;
 import gosemathraj.com.calendarviews.apiclient.Event;
 import gosemathraj.com.calendarviews.apiclient.MyJsonService;
 import retrofit.Callback;

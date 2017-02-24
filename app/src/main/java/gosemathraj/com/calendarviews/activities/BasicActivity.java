@@ -1,11 +1,11 @@
-package gosemathraj.com.calendarviews;
+package gosemathraj.com.calendarviews.activities;
 
 
 
 
 import com.alamkanak.weekview.WeekViewEvent;
 
-import gosemathraj.com.calendarviews.apiclient.Event;
+import gosemathraj.com.calendarviews.R;
 
 import java.util.ArrayList;
 import java.util.Calendar;

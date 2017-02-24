@@ -1,4 +1,4 @@
-package gosemathraj.com.calendarviews;
+package gosemathraj.com.calendarviews.activities;
 
 import android.graphics.RectF;
 import android.os.Bundle;
@@ -16,6 +16,8 @@ import com.alamkanak.weekview.WeekViewEvent;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Locale;
+
+import gosemathraj.com.calendarviews.R;
 
 /**
  * This is a base activity which contains week view and all the codes necessary to initialize the
@@ -148,6 +150,8 @@ public abstract class BaseActivity extends AppCompatActivity implements WeekView
     public void onEventClick(WeekViewEvent event, RectF eventRect) {
         Toast.makeText(this, "Clicked " + event.getName(), Toast.LENGTH_SHORT).show();
     }
+
+
 
     @Override
     public void onEventLongPress(WeekViewEvent event, RectF eventRect) {

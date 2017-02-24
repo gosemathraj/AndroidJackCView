@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +18,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BasicActivity"
+            android:name=".activities.BasicActivity"
             android:label="@string/title_activity_basic" >
         </activity>
         <activity
-            android:name=".AsynchronousActivity"
+            android:name=".activities.AsynchronousActivity"
             android:label="@string/title_activity_asynchronous" >
         </activity>
     </application>
