@@ -7,7 +7,6 @@ import com.alamkanak.weekview.WeekViewEvent;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-
 import gosemathraj.com.calendarviews.R;
 import gosemathraj.com.calendarviews.apiclient.Event;
 import gosemathraj.com.calendarviews.apiclient.MyJsonService;
@@ -21,6 +20,7 @@ import retrofit.client.Response;
  * Created by Raquib-ul-Alam Kanak on 1/3/2014.
  * Website: http://alamkanak.github.io
  */
+
 public class AsynchronousActivity extends BaseActivity implements Callback<List<Event>> {
 
     private List<WeekViewEvent> events = new ArrayList<WeekViewEvent>();

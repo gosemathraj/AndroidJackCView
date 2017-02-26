@@ -160,6 +160,7 @@ public abstract class BaseActivity extends AppCompatActivity implements WeekView
 
     @Override
     public void onEmptyViewLongPress(Calendar time) {
+
         Toast.makeText(this, "Empty view long pressed: " + getEventTitle(time), Toast.LENGTH_SHORT).show();
     }
 
